@@ -10,4 +10,10 @@
 
 @interface CWBoard : NSObject
 
+//Boards for boat placement
+@property (strong) NSMutableArray *playerBoard;
+@property (strong) NSMutableArray *botBoard;
+
+@property (strong) NSArray *row;
+
 @end
