@@ -63,19 +63,19 @@
 }
 
 - (void)movePiece:(UIPanGestureRecognizer*)sender {
-    [self.view bringSubviewToFront:[(UIPanGestureRecognizer*)sender view]];
-    CGPoint translatedPoint = [(UIPanGestureRecognizer*)sender translationInView:self.view];
+//    [self.view bringSubviewToFront:sender.view];
+    CGPoint translatedPoint = [sender translationInView:self.view];
     
-    if ([(UIPanGestureRecognizer*)sender state] == UIGestureRecognizerStateBegan) {
+    if ([sender state] == UIGestureRecognizerStateBegan) {
         self.firstX = sender.view.center.x;
         self.firstY = sender.view.center.y;
     }
     
     translatedPoint = CGPointMake(self.firstX + translatedPoint.x, self.firstY + translatedPoint.y);
     
-    [[sender view] setCenter:translatedPoint];
+    [sender.view setCenter:translatedPoint];
     
-    if ([(UIPanGestureRecognizer*)sender state] == UIGestureRecognizerStateEnded) {
+    if (sender.state == UIGestureRecognizerStateEnded) {
         
         CGFloat finalX = translatedPoint.x;
         CGFloat finalY = translatedPoint.y;

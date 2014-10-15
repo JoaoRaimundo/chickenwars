@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DFE71019E5B1A700F65B58 /* CWGameSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DFE70E19E5B1A700F65B58 /* CWGameSetupViewController.m */; };
+		65DFE71119E5B1A700F65B58 /* CWGameSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DFE70F19E5B1A700F65B58 /* CWGameSetupViewController.xib */; };
 		FC46805D19DDCBF00044FC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46805C19DDCBF00044FC95 /* Foundation.framework */; };
 		FC46805F19DDCBF00044FC95 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46805E19DDCBF00044FC95 /* CoreGraphics.framework */; };
 		FC46806119DDCBF00044FC95 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46806019DDCBF00044FC95 /* UIKit.framework */; };
@@ -34,6 +36,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65DFE70D19E5B1A700F65B58 /* CWGameSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWGameSetupViewController.h; sourceTree = "<group>"; };
+		65DFE70E19E5B1A700F65B58 /* CWGameSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWGameSetupViewController.m; sourceTree = "<group>"; };
+		65DFE70F19E5B1A700F65B58 /* CWGameSetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWGameSetupViewController.xib; sourceTree = "<group>"; };
 		FC46805919DDCBF00044FC95 /* ChickenWars.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChickenWars.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC46805C19DDCBF00044FC95 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		FC46805E19DDCBF00044FC95 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -119,6 +124,9 @@
 				FC46807219DDCBF00044FC95 /* CWViewController.m */,
 				FC46807419DDCBF00044FC95 /* Images.xcassets */,
 				FC46806319DDCBF00044FC95 /* Supporting Files */,
+				65DFE70D19E5B1A700F65B58 /* CWGameSetupViewController.h */,
+				65DFE70E19E5B1A700F65B58 /* CWGameSetupViewController.m */,
+				65DFE70F19E5B1A700F65B58 /* CWGameSetupViewController.xib */,
 			);
 			path = ChickenWars;
 			sourceTree = "<group>";
@@ -231,6 +239,7 @@
 			files = (
 				FC46807519DDCBF00044FC95 /* Images.xcassets in Resources */,
 				FC46806719DDCBF00044FC95 /* InfoPlist.strings in Resources */,
+				65DFE71119E5B1A700F65B58 /* CWGameSetupViewController.xib in Resources */,
 				FC46807019DDCBF00044FC95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,6 +261,7 @@
 			files = (
 				FC46806D19DDCBF00044FC95 /* CWAppDelegate.m in Sources */,
 				FC46806919DDCBF00044FC95 /* main.m in Sources */,
+				65DFE71019E5B1A700F65B58 /* CWGameSetupViewController.m in Sources */,
 				FC46807319DDCBF00044FC95 /* CWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -457,6 +467,7 @@
 				FC46808D19DDCBF00044FC95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC46808E19DDCBF00044FC95 /* Build configuration list for PBXNativeTarget "ChickenWarsTests" */ = {
 			isa = XCConfigurationList;
@@ -465,6 +476,7 @@
 				FC46809019DDCBF00044FC95 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

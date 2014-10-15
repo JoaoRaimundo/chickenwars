@@ -36,15 +36,15 @@
                 </collectionView>
                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="BNW-2j-jgC">
                     <rect key="frame" x="108" y="96" width="60" height="60"/>
-                    <color key="backgroundColor" red="0.96481470680000003" green="0.49459888270000002" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.27371446802006116" green="0.65314455493990675" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="eyB-HW-wo7">
                     <rect key="frame" x="78" y="164" width="90" height="30"/>
-                    <color key="backgroundColor" red="0.55117971170000002" green="0.0" blue="0.61077572599999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.61077572601010099" green="0.45516011959991637" blue="0.11396210480160311" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gfR-sd-IIz">
                     <rect key="frame" x="10" y="96" width="90" height="60"/>
-                    <color key="backgroundColor" red="0.55117971170000002" green="0.0" blue="0.61077572599999996" alpha="1" colorSpace="calibratedRGB"/>
+                    <color key="backgroundColor" red="0.78922032828282829" green="0.17452224122009422" blue="0.28241223782481595" alpha="1" colorSpace="calibratedRGB"/>
                 </imageView>
                 <imageView contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GFT-YJ-nOp">
                     <rect key="frame" x="176" y="164" width="30" height="30"/>
