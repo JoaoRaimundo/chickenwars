@@ -10,4 +10,10 @@
 
 @interface CWGameManager : NSObject
 
+//Moves done by both players
+@property (strong) NSMutableArray *playerMoves;
+@property (strong) NSMutableArray *botMoves;
+
+@property (strong) NSArray *row;
+
 @end
