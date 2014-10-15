@@ -7,12 +7,23 @@
 //
 
 #import "CWAppDelegate.h"
+#import "CWGameSetupViewController.h"
+
 
 @implementation CWAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    _window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    [self.window makeKeyAndVisible];
+
+    CWGameSetupViewController *setupController = [CWGameSetupViewController new];
+    setupController.view.frame = self.window.bounds;
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:setupController];
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 							
