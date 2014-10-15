@@ -12,7 +12,7 @@
 	<dict>
 		<key>3CD69CB2-88C2-41C9-B1FA-F3E70B92A276</key>
 		<string>ssh://github.com/jcaseiro/chickenwars.git</string>
-		<key>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</key>
+		<key>C04FD9C6CCD204DF84A73D2F08A4E0FC41A155D7</key>
 		<string>https://github.com/jcaseiro/chickenwars</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
@@ -21,22 +21,22 @@
 	<dict>
 		<key>3CD69CB2-88C2-41C9-B1FA-F3E70B92A276</key>
 		<string>../../../../ChickenWars</string>
-		<key>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</key>
+		<key>C04FD9C6CCD204DF84A73D2F08A4E0FC41A155D7</key>
 		<string>../../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
 	<string>https://github.com/jcaseiro/chickenwars</string>
 	<key>IDESourceControlProjectVersion</key>
-	<integer>110</integer>
+	<integer>111</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</string>
+	<string>C04FD9C6CCD204DF84A73D2F08A4E0FC41A155D7</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>8D85DCB8-CA22-4208-9B72-3DA8ED7C272F</string>
+			<string>C04FD9C6CCD204DF84A73D2F08A4E0FC41A155D7</string>
 			<key>IDESourceControlWCCName</key>
 			<string>chickenwars</string>
 		</dict>
