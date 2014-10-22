@@ -10,44 +10,27 @@
 
 @interface CWBoard ()
 
-
+//Boards for chickens placement
+@property (strong) NSMutableArray *board;
 @end
 
 @implementation CWBoard
 
-- (instancetype)init {
+- (instancetype)initWithDimension:(NSInteger) dimension {
     self = [super init];
-    
     if (self) {
         
-        _playerBoard = [[NSMutableArray alloc] initWithCapacity: 10];
-        
-        _playerBoard = [self boardInitializer:_playerBoard];
-        
-        _botBoard = [[NSMutableArray alloc] initWithCapacity: 10];
-        
-        _botBoard = [self boardInitializer:_botBoard];
-    
+        self.board = [[NSMutableArray alloc] init];
+        for (int i = 0; i < dimension; i++) {
+            NSMutableArray *row = [[NSMutableArray alloc] init];
+            for (int j = 0; j < dimension; j++) {
+                [row addObject:@NO];
+            }
+            self.board[i]=row;
+        }
     }
     
     return self;
-}
-
-//////////////////////////
-//Init helper for arrays//
-//////////////////////////
-
--(NSMutableArray *)boardInitializer:(NSMutableArray *) desiredBoard {
-
-    _row = @[@(NO),@(NO),@(NO),@(NO),
-             @(NO),@(NO),@(NO),@(NO),
-             @(NO),@(NO)];
-    
-    for (int i = 0; i < 10; i++) {
-        [desiredBoard insertObject:_row atIndex:i];
-    }
-    
-    return desiredBoard;
 }
 
 @end
