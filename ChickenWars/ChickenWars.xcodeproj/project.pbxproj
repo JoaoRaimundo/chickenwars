@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		65DFE71019E5B1A700F65B58 /* CWGameSetupViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 65DFE70E19E5B1A700F65B58 /* CWGameSetupViewController.m */; };
+		65DFE71119E5B1A700F65B58 /* CWGameSetupViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 65DFE70F19E5B1A700F65B58 /* CWGameSetupViewController.xib */; };
 		7FFD575E19E5B6A3000F47CB /* CWGameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD575D19E5B6A3000F47CB /* CWGameManager.m */; };
 		7FFD576119E5BA02000F47CB /* CWBoard.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FFD576019E5BA02000F47CB /* CWBoard.m */; };
 		FC46805D19DDCBF00044FC95 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FC46805C19DDCBF00044FC95 /* Foundation.framework */; };
@@ -36,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		65DFE70D19E5B1A700F65B58 /* CWGameSetupViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWGameSetupViewController.h; sourceTree = "<group>"; };
+		65DFE70E19E5B1A700F65B58 /* CWGameSetupViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWGameSetupViewController.m; sourceTree = "<group>"; };
+		65DFE70F19E5B1A700F65B58 /* CWGameSetupViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CWGameSetupViewController.xib; sourceTree = "<group>"; };
 		7FFD575C19E5B6A3000F47CB /* CWGameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWGameManager.h; sourceTree = "<group>"; };
 		7FFD575D19E5B6A3000F47CB /* CWGameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CWGameManager.m; sourceTree = "<group>"; };
 		7FFD575F19E5BA02000F47CB /* CWBoard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CWBoard.h; sourceTree = "<group>"; };
@@ -125,6 +130,9 @@
 				FC46807219DDCBF00044FC95 /* CWViewController.m */,
 				FC46807419DDCBF00044FC95 /* Images.xcassets */,
 				FC46806319DDCBF00044FC95 /* Supporting Files */,
+				65DFE70D19E5B1A700F65B58 /* CWGameSetupViewController.h */,
+				65DFE70E19E5B1A700F65B58 /* CWGameSetupViewController.m */,
+				65DFE70F19E5B1A700F65B58 /* CWGameSetupViewController.xib */,
 				7FFD575F19E5BA02000F47CB /* CWBoard.h */,
 				7FFD576019E5BA02000F47CB /* CWBoard.m */,
 				7FFD575C19E5B6A3000F47CB /* CWGameManager.h */,
@@ -241,6 +249,7 @@
 			files = (
 				FC46807519DDCBF00044FC95 /* Images.xcassets in Resources */,
 				FC46806719DDCBF00044FC95 /* InfoPlist.strings in Resources */,
+				65DFE71119E5B1A700F65B58 /* CWGameSetupViewController.xib in Resources */,
 				FC46807019DDCBF00044FC95 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -264,6 +273,7 @@
 				7FFD576119E5BA02000F47CB /* CWBoard.m in Sources */,
 				7FFD575E19E5B6A3000F47CB /* CWGameManager.m in Sources */,
 				FC46806919DDCBF00044FC95 /* main.m in Sources */,
+				65DFE71019E5B1A700F65B58 /* CWGameSetupViewController.m in Sources */,
 				FC46807319DDCBF00044FC95 /* CWViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
